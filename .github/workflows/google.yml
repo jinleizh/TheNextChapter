@@ -42,7 +42,8 @@ on:
   workflow_dispatch:
 
 env:
-  PROJECT_ID: 'profound-surge-453200-t0' # TODO: update to your Google Cloud project ID
+  # PROJECT_ID: 'profound-surge-453200-t0' # TODO: update to your Google Cloud project ID
+  PROJECT_ID: 308152143342
   GAR_LOCATION: 'us-central1' # TODO: update to your region
   GKE_CLUSTER: 'autopilot-cluster-1' # TODO: update to your cluster name
   GKE_ZONE: 'us-central1-c' # TODO: update to your cluster zone
